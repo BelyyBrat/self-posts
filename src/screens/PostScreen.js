@@ -7,6 +7,10 @@ export const PostScreen = ({}) => {
   </View>
 }
 
+PostScreen.navigationOptions = {
+  headerTitle: 'Post number 2'
+}
+
 const styles = StyleSheet.create({
   center: {
     flex: 1,
